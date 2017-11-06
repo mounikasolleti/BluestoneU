@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="79245" started-at="2017-11-03T11:53:11Z" finished-at="2017-11-03T11:54:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="79245" started-at="2017-11-03T11:53:11Z" finished-at="2017-11-03T11:54:30Z">
+      <class name="com.bluestone.test.DownloadAppTest">
+        <test-method status="PASS" signature="preConditions()[pri:0, instance:com.bluestone.test.DownloadAppTest@482f8f11]" name="preConditions" is-config="true" duration-ms="34494" started-at="2017-11-03T17:23:11Z" finished-at="2017-11-03T17:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method status="PASS" signature="download()[pri:0, instance:com.bluestone.test.DownloadAppTest@482f8f11]" name="download" duration-ms="44643" started-at="2017-11-03T17:23:45Z" finished-at="2017-11-03T17:24:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- download -->
+        <test-method status="PASS" signature="postConditions()[pri:0, instance:com.bluestone.test.DownloadAppTest@482f8f11]" name="postConditions" is-config="true" duration-ms="63" started-at="2017-11-03T17:24:30Z" finished-at="2017-11-03T17:24:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+      </class> <!-- com.bluestone.test.DownloadAppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

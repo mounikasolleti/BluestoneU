@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.project.test.Signin"/>
+      <class name="com.project.test.Wrongun_1"/>
+      <class name="com.project.test.Shipping_1"/>
+      <class name="com.project.test.Personal"/>
+      <class name="com.project.test.Offers"/>
+      <class name="com.project.test.Coin"/>
+      <class name="com.project.test.Cart_1"/>
+      <class name="com.project.test.W_wishlist"/>
+      <class name="com.project.test.Shippingaddress_1"/>
+      <class name="com.project.test.Tryhome"/>
+      <class name="com.project.test.removeitemwishlist1"/>
+      <class name="com.project.test.Nousername_1"/>
+      <class name="com.project.test.Logout"/>
+      <class name="com.project.test.w_wshlistwoselect"/>
+      <class name="com.project.test.Entercountry"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

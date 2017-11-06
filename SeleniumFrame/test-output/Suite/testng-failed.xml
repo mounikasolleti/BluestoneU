@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.project.test.Shipping_1">
+        <methods>
+          <include name="Shipping_21"/>
+          <include name="OpenApp"/>
+          <include name="CloseApp"/>
+        </methods>
+      </class> <!-- com.project.test.Shipping_1 -->
+      <class name="com.project.test.removeitemwishlist1">
+        <methods>
+          <include name="OpenApp"/>
+          <include name="removeitemwishlist12"/>
+          <include name="CloseApp"/>
+        </methods>
+      </class> <!-- com.project.test.removeitemwishlist1 -->
+      <class name="com.project.test.w_wshlistwoselect">
+        <methods>
+          <include name="w_wshlistwoselect1"/>
+          <include name="OpenApp"/>
+          <include name="CloseApp"/>
+        </methods>
+      </class> <!-- com.project.test.w_wshlistwoselect -->
+      <class name="com.project.test.Coin">
+        <methods>
+          <include name="OpenApp"/>
+          <include name="w_wshlistwoselect1"/>
+          <include name="CloseApp"/>
+        </methods>
+      </class> <!-- com.project.test.Coin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
